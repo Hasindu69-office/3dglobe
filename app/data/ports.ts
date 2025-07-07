@@ -1,3 +1,9 @@
+export type Port = {
+  name: string;
+  lat: number;
+  lng: number;
+};
+
 export const ports = [
   { name: "Port of Shanghai", lat: 31.2304, lng: 121.4737 },
   { name: "Port of Singapore", lat: 1.3521, lng: 103.8198 },
